@@ -1,0 +1,43 @@
+<html lang="es" charset="utf-8">
+<head>
+    <title>Página de predicción del CLIMA</title>
+    <style>
+        .contenedor {
+            display:flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .contenedor > div {
+            
+            padding: 5px;
+            background-color: darkseagreen;
+            border: 1px solid #ccc;
+            width: 300px;
+        }
+        .contenedor {
+            text-align: center;
+            width: 100%;
+        }
+        
+    
+    </style>
+    
+    
+</head>
+<body>
+    <h1>Consulta el clima en tiempo real</h1>
+    <label>Introduce las ciudades a consultar (una por línea):</label><br/>
+    <textarea></textarea>
+    <div class="contenedor">
+        <div>
+            <h1>Barcelona</h1>
+            <p>
+                <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png">
+            </p>
+            <p>Temperatura: 30ºC | Humedad: 45%</p>
+        </div>
+   
+    </div>
+    
+</body>
+</html>
